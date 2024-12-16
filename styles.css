@@ -98,25 +98,18 @@ a {
   gap: 40px;
 }
 
-.menu-option {
+.menu-btn {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  background-color: #00704A;
+  color: white;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.menu-option img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
-
-.menu-option h3 {
-  font-size: 1.5em;
-}
-
-/* Drink Category */
-.drink-category {
-  display: none;
-  margin-top: 30px;
+.menu-btn:hover {
+  background-color: #004F32;
 }
 
 .menu-items {
@@ -145,6 +138,11 @@ a {
 .menu-item p {
   font-size: 1em;
   color: #555;
+}
+
+.drink-category {
+  display: none;
+  margin-top: 30px;
 }
 
 /* Footer */
