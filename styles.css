@@ -98,18 +98,16 @@ a {
   gap: 40px;
 }
 
-.menu-btn {
-  padding: 15px 30px;
-  font-size: 1.5em;
-  background-color: #00704A;
-  color: white;
-  border: none;
-  border-radius: 5px;
+.menu-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   cursor: pointer;
+  transition: opacity 0.3s;
 }
 
-.menu-btn:hover {
-  background-color: #004F32;
+.menu-icon:hover {
+  opacity: 0.7;
 }
 
 .menu-items {
