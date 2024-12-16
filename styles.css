@@ -92,22 +92,25 @@ a {
   margin-bottom: 30px;
 }
 
-.menu-category {
+.menu-buttons {
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 40px;
 }
 
-.menu-icon {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: opacity 0.3s;
+.menu-btn {
+  background-color: #00704A;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.menu-icon:hover {
-  opacity: 0.7;
+.menu-btn:hover {
+  background-color: #004b30;
 }
 
 .menu-items {
