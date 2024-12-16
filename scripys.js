@@ -15,3 +15,4 @@ window.onload = function() {
   document.getElementById('hot-drinks').style.display = 'block';  // Mostrar bebidas calientes
   document.getElementById('cold-drinks').style.display = 'none'; // Ocultar bebidas frías
 };
+
