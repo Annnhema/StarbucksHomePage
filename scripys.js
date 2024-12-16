@@ -1,17 +1,16 @@
-// Función para mostrar las bebidas calientes
+// Función para manejar la visibilidad de bebidas
 document.getElementById('hot').addEventListener('click', function() {
-  document.getElementById('hot-drinks').style.display = 'block';  // Mostrar bebidas calientes
-  document.getElementById('cold-drinks').style.display = 'none'; // Ocultar bebidas frías
+  document.getElementById('hot-drinks').style.display = 'block';
+  document.getElementById('cold-drinks').style.display = 'none';
 });
 
-// Función para mostrar las bebidas frías
 document.getElementById('cold').addEventListener('click', function() {
-  document.getElementById('cold-drinks').style.display = 'block'; // Mostrar bebidas frías
-  document.getElementById('hot-drinks').style.display = 'none';  // Ocultar bebidas calientes
+  document.getElementById('cold-drinks').style.display = 'block';
+  document.getElementById('hot-drinks').style.display = 'none';
 });
 
-// Mostrar bebidas calientes por defecto cuando la página se carga
+// Mostrar bebidas calientes por defecto al cargar la página
 window.onload = function() {
-  document.getElementById('hot-drinks').style.display = 'block';  // Mostrar bebidas calientes
-  document.getElementById('cold-drinks').style.display = 'none'; // Ocultar bebidas frías
+  document.getElementById('hot-drinks').style.display = 'block';
+  document.getElementById('cold-drinks').style.display = 'none';
 };
