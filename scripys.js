@@ -12,6 +12,7 @@ document.getElementById('cold').addEventListener('click', function() {
 
 // Mostrar bebidas calientes por defecto cuando la página se carga
 window.onload = function() {
+  // Mostrar bebidas calientes por defecto
   document.getElementById('hot-drinks').style.display = 'block';  // Mostrar bebidas calientes
   document.getElementById('cold-drinks').style.display = 'none'; // Ocultar bebidas frías
 };
