@@ -1,4 +1,4 @@
- /* General Styles */
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -98,8 +98,19 @@ a {
   gap: 40px;
 }
 
+/* Botones para Bebidas Calientes y Frías */
 .menu-option {
   cursor: pointer;
+  background-color: #00704A; /* Verde Starbucks */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.menu-option:hover {
+  background-color: #004d32; /* Verde más oscuro al pasar el ratón */
 }
 
 .menu-option img {
