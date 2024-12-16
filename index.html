@@ -28,22 +28,26 @@
   <!-- About Us Section -->
   <section id="about" class="about">
     <h2>Sobre Nosotros</h2>
-    <p>En Starbucks®, nos aseguramos de que todo lo que hacemos respete esa conexión, desde nuestro compromiso con el café de la mejor calidad hasta la forma en que nos relacionamos con nuestros clientes y comunidades.</p>
+    <p>En Starbucks estamos comprometidos a ofrecer café de alta calidad mientras fomentamos un sentido de comunidad.</p>
     <img src="Caffe.jpg" alt="Café" class="about-image">
   </section>
 
-  <!-- Menú de Bebidas -->
+  <!-- Menu Section -->
   <section id="menu" class="menu">
-    <h2>Menú de Bebidas</h2>
-
-    <!-- Opciones de Bebidas -->
-    <div class="drink-options">
-      <img src="hot.webp" id="hot" alt="Bebidas Calientes" class="drink-option">
-      <img src="cold.avif" id="cold" alt="Bebidas Frías" class="drink-option">
+    <h2>Nuestro Menú</h2>
+    <div class="menu-category">
+      <div class="menu-option" id="hot">
+        <img src="Caliente.avif" alt="Bebidas Calientes" class="menu-img">
+        <h3>Bebidas Calientes</h3>
+      </div>
+      <div class="menu-option" id="cold">
+        <img src="cold.avif" alt="Bebidas Frías" class="menu-img">
+        <h3>Bebidas Frías</h3>
+      </div>
     </div>
 
     <!-- Bebidas Calientes -->
-    <div id="hot-drinks" class="drink-category">
+    <div id="hot-drinks" class="drink-category" style="display: none;">
       <h3>Bebidas Calientes</h3>
       <div class="menu-items">
         <div class="menu-item">
@@ -69,7 +73,7 @@
       <h3>Bebidas Frías</h3>
       <div class="menu-items">
         <div class="menu-item">
-          <img src="Cold_Brew.jpg" alt="Cold Brew" class="drink-img">
+          <img src="cold-brew.jpg" alt="Cold Brew" class="drink-img">
           <h3>Cold Brew</h3>
           <p>Café preparado a fuego lento y servido frío.</p>
         </div>
@@ -87,6 +91,11 @@
     </div>
   </section>
 
-  <script src="scripts.js"></script>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Starbucks. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
