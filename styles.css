@@ -1,119 +1,156 @@
-/* Estilo general */
+ /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Encabezado */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #2f4f4f;
-  }
-  
-  .logo {
-    width: 120px;
-  }
-  
-  .navbar {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Sección Hero */
-  .hero {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #8b4513;
-    color: white;
-  }
-  
-  .tagline {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 24px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3c5c5c;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-  }
-  
-  .btn:hover {
-    background-color: #2f4f4f;
-  }
-  
-  /* About Us */
-  .about {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  .about-image {
-    width: 300px;
-    height: auto;
-    margin-top: 20px;
-  }
-  
-  /* Menu */
-  .menu-category {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .menu-category button {
-    padding: 10px 20px;
-    background-color: #2f4f4f;
-    color: white;
-    border: none;
-    margin: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .menu-category button:hover {
-    background-color: #3c5c5c;
-  }
-  
-  .menu-items {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-  }
-  
-  .menu-item {
-    text-align: center;
-    width: 200px;
-  }
-  
-  .menu-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  
-  .menu-item h3 {
-    margin-top: 10px;
-    font-size: 18px;
-  }
-  
-  /* Footer */
-  .footer {
-    background-color: #2f4f4f;
-    text-align: center;
-    padding: 20px;
-    color: white;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.header {
+  background-color: #00704A;
+  padding: 20px;
+  text-align: center;
+}
+
+.header .logo {
+  width: 100px;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.navbar a {
+  margin: 0 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #00704A;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  padding: 15px 30px;
+  background-color: #f5f5f5;
+  color: #00704A;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: none;
+}
+
+/* About Us Section */
+.about {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about h2 {
+  font-size: 2.5em;
+}
+
+.about p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Menu Section */
+.menu {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.menu-category {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu-option {
+  cursor: pointer;
+}
+
+.menu-option img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.menu-option h3 {
+  font-size: 1.5em;
+}
+
+/* Drink Category */
+.drink-category {
+  display: none;
+  margin-top: 30px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  width: 250px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.menu-item h3 {
+  font-size: 1.5em;
+}
+
+.menu-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  background-color: #00704A;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
