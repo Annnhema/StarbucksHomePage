@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,85 +9,84 @@
 <body>
   <!-- Header -->
   <header class="header">
-    <img src="Starbucks_logo.jpg" alt="Starbucks logo" class="logo">
+    <img src="Starbucks_logo.jpg" alt="Logo de Starbucks" class="logo">
     <nav class="navbar">
-      <a href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#menu">Menu</a>
-      <a href="#contact">Contact</a>
+      <a href="#home">Inicio</a>
+      <a href="#about">Sobre Nosotros</a>
+      <a href="#menu">Menú</a>
+      <a href="#contact">Contacto</a>
     </nav>
   </header>
 
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <h1>Bienvenido a Starbucks</h1>
-    <p class="tagline">Tu café favorito, ahora más cerca de ti.</p>
-    <a href="#menu" class="btn">Explore Our Menu</a>
+    <h1>Bienvenidos a Starbucks</h1>
+    <p>Tu café favorito, ahora más cerca de ti.</p>
+    <a href="#menu" class="btn">Explorar Nuestro Menú</a>
   </section>
 
   <!-- About Us Section -->
   <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>Por nuestro amor al café, a nuestros partners y a nuestros clientes. ¡Estamos felices de verte todos los días!</p>
-    <img src="Caffe.jpg" alt="Coffee" class="about-image">
+    <h2>Sobre Nosotros</h2>
+    <p>En Starbucks®, nos aseguramos de que todo lo que hacemos respete esa conexión, desde nuestro compromiso con el café de la mejor calidad hasta la forma en que nos relacionamos con nuestros clientes y comunidades para hacer negocios de manera responsable. Desde los inicios de Starbucks® como una única tienda, en todos los lugares en los que hemos estado y en todos los lugares que tocamos, hemos tratado de hacer de cada lugar, un lugar mejor.</p>
+    <img src="Caffe.jpg" alt="Café" class="about-image">
   </section>
 
-  <!-- Menu Section -->
+  <!-- Menú de Bebidas -->
   <section id="menu" class="menu">
-    <h2>Our Menu</h2>
-    <div class="menu-category">
-      <button onclick="window.location.href='#calientes'">Bebidas Calientes</button>
-      <button onclick="window.location.href='#frias'">Bebidas Frías</button>
+    <h2>Menú de Bebidas</h2>
+
+    <!-- Opciones de Bebidas -->
+    <div class="drink-options">
+      <button id="hot">Bebidas Calientes</button>
+      <button id="cold">Bebidas Frías</button>
     </div>
 
     <!-- Bebidas Calientes -->
-    <section id="calientes">
+    <div id="hot-drinks" class="drink-category">
       <h3>Bebidas Calientes</h3>
       <div class="menu-items">
         <div class="menu-item">
-          <img src="Cafe_Latte.jpg" alt="Café Latte" class="menu-img">
+          <img src="Caffe_Latte.jpg" alt="Latte" class="drink-img">
           <h3>Latte</h3>
-          <p>Mezclamos el café con leche y hielo para crear una de nuestras bebidas más originales de Frappuccino®.</p>
+          <p>Café suave y cremoso con leche vaporizada.</p>
         </div>
         <div class="menu-item">
-          <img src="Capuchino.jpg" alt="Capuchino" class="menu-img">
+          <img src="Capuchino.webp" alt="Cappuccino" class="drink-img">
           <h3>Cappuccino</h3>
-          <p>El jarabe de caramelo se encuentra con el café, la leche y el hielo para una cita en la licuadora, mientras que la crema batida y la salsa de caramelo con mantequilla cubren de amor por encima.</p>
+          <p>Una mezcla perfecta de espresso, leche y espuma.</p>
         </div>
         <div class="menu-item">
-          <img src="Mocha.jpg" alt="Mocha" class="menu-img">
+          <img src="Mocha.avif" alt="Mocha" class="drink-img">
           <h3>Mocha</h3>
-          <p>Una mezcla perfecta de café expreso y chocolate, coronado con crema batida.</p>
+          <p>Una bebida de café con chocolate y crema batida.</p>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Bebidas Frías -->
-    <section id="frias">
+    <div id="cold-drinks" class="drink-category" style="display: none;">
       <h3>Bebidas Frías</h3>
       <div class="menu-items">
         <div class="menu-item">
-          <img src="Cold_Brew.jpg" alt="Cold Brew" class="menu-img">
+          <img src="cold-brew.jpg" alt="Cold Brew" class="drink-img">
           <h3>Cold Brew</h3>
-          <p>Bebida refrescante y re-energizante, preparada artesanalmente con un toque de vainilla.</p>
+          <p>Café preparado a fuego lento y servido frío.</p>
         </div>
         <div class="menu-item">
-          <img src="Iced_Latte.jpg" alt="Iced Latte" class="menu-img">
-          <h3>Iced Latte</h3>
-          <p>Un clásico refrescante, café expreso servido sobre hielo con leche fría.</p>
+          <img src="IcedCaffeLatte.avif" alt="Latte Helado" class="drink-img">
+          <h3>Latte Helado</h3>
+          <p>Espresso con leche fría, servido sobre hielo.</p>
         </div>
         <div class="menu-item">
-          <img src="Frappuccino.jpg" alt="Frappuccino" class="menu-img">
-          <h3>Frappuccino</h3>
-          <p>Una mezcla deliciosa de café, hielo y crema batida, el toque perfecto para refrescarte.</p>
+          <img src="Matcha.webp" alt="Iced Matcha" class="drink-img">
+          <h3>Café Helado</h3>
+          <p>Café recién hecho servido frío con hielo.</p>
         </div>
       </div>
-    </section>
+    </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2024 Starbucks. All Rights Reserved.</p>
-  </footer>
+  <script src="scripts.js"></script>
 </body>
 </html>
