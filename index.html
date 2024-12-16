@@ -21,37 +21,68 @@
   <!-- Hero Section -->
   <section id="home" class="hero">
     <h1>Bienvenido a Starbucks</h1>
-    <p>Tu café favorito, ahora más cerca de ti.</p>
+    <p class="tagline">Tu café favorito, ahora más cerca de ti.</p>
     <a href="#menu" class="btn">Explore Our Menu</a>
   </section>
 
   <!-- About Us Section -->
   <section id="about" class="about">
     <h2>About Us</h2>
-    <p>Por nuestro amor al café, a nuestros partners y a nuestros clientes.¡Estamos felices de verte todos los días!.</p>
+    <p>Por nuestro amor al café, a nuestros partners y a nuestros clientes. ¡Estamos felices de verte todos los días!</p>
     <img src="Caffe.jpg" alt="Coffee" class="about-image">
   </section>
 
   <!-- Menu Section -->
   <section id="menu" class="menu">
     <h2>Our Menu</h2>
-    <div class="menu-items">
-      <div class="menu-item">
-        <img src="Cafe_Latte.jpg" alt="Café Frappuccino">
-        <h3>Latte</h3>
-        <p>Mezclamos el café con leche y hielo para crear una de nuestras bebidas más originales de Frappuccino®..</p>
-      </div>
-      <div class="menu-item">
-        <img src="Capuchino.jpg" alt="Caramel Frappuccino">
-        <h3>Cappuccino</h3>
-        <p>El jarabe de caramelo se encuentra con el café, la leche y el hielo para una cita en la licuadora, mientras que la crema batida y la salsa de caramelo con mantequilla cubren de amor por encima..</p>
-      </div>
-      <div class="menu-item">
-        <img src="Cold_Brew.jpg" alt="Vainilla Cream Cold Brew">
-        <h3>Cold Brew</h3>
-        <p>Bebida refrescante y re-energizante, preparada artesanalmente con un toque de vainilla..</p>
-      </div>
+    <div class="menu-category">
+      <button onclick="window.location.href='#calientes'">Bebidas Calientes</button>
+      <button onclick="window.location.href='#frias'">Bebidas Frías</button>
     </div>
+
+    <!-- Bebidas Calientes -->
+    <section id="calientes">
+      <h3>Bebidas Calientes</h3>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="Cafe_Latte.jpg" alt="Café Latte" class="menu-img">
+          <h3>Latte</h3>
+          <p>Mezclamos el café con leche y hielo para crear una de nuestras bebidas más originales de Frappuccino®.</p>
+        </div>
+        <div class="menu-item">
+          <img src="Capuchino.jpg" alt="Capuchino" class="menu-img">
+          <h3>Cappuccino</h3>
+          <p>El jarabe de caramelo se encuentra con el café, la leche y el hielo para una cita en la licuadora, mientras que la crema batida y la salsa de caramelo con mantequilla cubren de amor por encima.</p>
+        </div>
+        <div class="menu-item">
+          <img src="Mocha.jpg" alt="Mocha" class="menu-img">
+          <h3>Mocha</h3>
+          <p>Una mezcla perfecta de café expreso y chocolate, coronado con crema batida.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bebidas Frías -->
+    <section id="frias">
+      <h3>Bebidas Frías</h3>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="Cold_Brew.jpg" alt="Cold Brew" class="menu-img">
+          <h3>Cold Brew</h3>
+          <p>Bebida refrescante y re-energizante, preparada artesanalmente con un toque de vainilla.</p>
+        </div>
+        <div class="menu-item">
+          <img src="Iced_Latte.jpg" alt="Iced Latte" class="menu-img">
+          <h3>Iced Latte</h3>
+          <p>Un clásico refrescante, café expreso servido sobre hielo con leche fría.</p>
+        </div>
+        <div class="menu-item">
+          <img src="Frappuccino.jpg" alt="Frappuccino" class="menu-img">
+          <h3>Frappuccino</h3>
+          <p>Una mezcla deliciosa de café, hielo y crema batida, el toque perfecto para refrescarte.</p>
+        </div>
+      </div>
+    </section>
   </section>
 
   <!-- Footer -->
