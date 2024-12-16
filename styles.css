@@ -41,53 +41,116 @@ a {
   padding: 50px 0;
 }
 
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
 .hero .btn {
   padding: 15px 30px;
   background-color: #f5f5f5;
   color: #00704A;
+  font-size: 1.2em;
   border-radius: 5px;
+  border: none;
+}
+
+/* About Us Section */
+.about {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about h2 {
+  font-size: 2.5em;
+}
+
+.about p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
 }
 
 /* Menu Section */
 .menu {
+  padding: 40px 20px;
   text-align: center;
-  padding: 40px;
 }
 
-.drink-option {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+.menu h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.menu-category {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu-option {
   cursor: pointer;
-  margin: 20px;
-  transition: transform 0.3s;
 }
 
-.drink-option:hover {
-  transform: scale(1.1);
+.menu-option img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
+.menu-option h3 {
+  font-size: 1.5em;
+}
+
+/* Drink Category */
 .drink-category {
   display: none;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .menu-items {
   display: flex;
   justify-content: center;
+  gap: 40px;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .menu-item {
+  width: 250px;
   text-align: center;
-  max-width: 200px;
 }
 
 .menu-item img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
+.menu-item h3 {
+  font-size: 1.5em;
+}
+
+.menu-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  background-color: #00704A;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
